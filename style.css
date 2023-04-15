@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11. apr. 2023, 13.11.34
+    Author     : christianegelundhansen
+*/
+body{
+    margin: 0; 
+    font-family: "Times new Roman", Times, serif; 
+    min-height: 100vh; 
+}
+
+.header{
+    background-color: white; 
+    color: black; 
+    padding: 15px;
+    text-align: center; 
+}
+a:visited{
+    text-decoration: none; 
+    color: black; 
+}
+
+a:link{
+    text-decoration: none;
+    color: black; 
+}
