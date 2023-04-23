@@ -17,9 +17,12 @@
         // put your code here
         ?>
         <div class="navbar">
-            <li><a href="kontakt.php">Kontakt</a></li>
+            <li><a href="browse.php">Browse</a></li>
             <li><a href="profil.php">Profil</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
             <li><a href="om_os.php">Om os</a></li>
+            <li ><a href="login.php">Login/Sign up </a></li>
+            <input class = "topnav" type="text" placeholder="Søg..">
         </div>
     <div style="height:600px; margin-left: 300px; margin-right: 25%; margin-top: 5%;">
         <h1>Din Profil</h1>
