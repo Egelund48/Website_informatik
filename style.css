@@ -1,9 +1,12 @@
 body{
-    margin:0; 
+    margin: 0; 
     font-family: 'Times New Roman', Times, serif;
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
+.header{
+    text-align: center;
+}
 .header a{
     text-align: center;
     font-size: 65px;
@@ -14,6 +17,8 @@ body{
 .navbar{
     overflow: auto; 
     background-color: black; 
+    display : flex;
+    align-items : center;
 }
 
 .navbar a{
@@ -24,7 +29,41 @@ body{
     text-decoration: none;
 }
 
+
 .navbar a:hover{
     background-color: rgb(126,126,126); 
     color: rgb(255,255,255); 
+    padding: 20px 100px
 }
+
+.active {
+    color: rgb(200, 200,200)
+}
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav, .topnav input[type=text] {
+      float: right;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
