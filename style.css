@@ -133,7 +133,6 @@ li {
     height: 300px; 
     padding: 5px; 
     border: 2px solid rgb(0,0,0); 
-    flex-basis: 40%; 
 }
 
 .info{
@@ -145,3 +144,58 @@ li {
     align-items: center;
     justify-content: center
 }
+
+.wrapper{
+    width: auto;
+    overflow: hidden;
+    display: flex; 
+}
+
+.post_1{
+    border: 2px solid rgb(0,0,0); 
+    width: 300px; 
+    padding: 20px; 
+    float: left;  
+    margin: 20px; 
+}
+
+.post_1_post{
+    border: 10px rgb(0, 0, 255)
+}
+
+.post_2{
+    border: 2px solid rgb(0,0,0); 
+    width: 300px; 
+    padding: 20px; 
+    float: left; 
+    margin: 20px
+}
+
+.post_2_post{
+    border: 10px rgb(0, 0, 255); 
+}
+
+.post_3{
+    border: 2px solid rgb(0,0,0); 
+    width: 300px; 
+    padding: 20px; 
+    float: left; 
+    margin:20px; 
+}
+
+.post_3_post{
+    border: 10px rgb(0, 0, 255); 
+}
+
+.tilføj_selv{
+    border: 2px solid rgb(0,0,0); 
+    width: 300px; 
+    padding: 20px; 
+    float: left; 
+    margin:20px; 
+}
+
+.tilføj_billede{
+    border: 10px rgb(0, 0, 255); 
+}
+
