@@ -129,8 +129,19 @@ li {
 }
 
 .profil_billede{
-    width: 150px; 
-    height: 150px; 
+    width: 300px; 
+    height: 300px; 
     padding: 5px; 
     border: 2px solid rgb(0,0,0); 
+    flex-basis: 40%; 
+}
+
+.info{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
