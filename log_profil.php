@@ -40,7 +40,7 @@ $resul = mysqli_fetch_assoc($query);
                 else
                 {
                     echo "Login/sign up"; 
-                }a
+                }
             ?>
             </a></li>
             <input class = "topnav" type="text" placeholder="Søg..">
