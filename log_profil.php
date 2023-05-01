@@ -40,7 +40,7 @@ $resul = mysqli_fetch_assoc($query);
                 else
                 {
                     echo "Login/sign up"; 
-                }
+                }a
             ?>
             </a></li>
             <input class = "topnav" type="text" placeholder="Søg..">
@@ -50,9 +50,25 @@ $resul = mysqli_fetch_assoc($query);
         <p style="line-height: 2.0; font-size:20px;">
             Hey <?php echo $resul["name"]?>! her er din helt egen profil, hvor du kan tilføje, fjerne og updatere dine forskellige personlige oplysninger. 
         </p>
-        <br>
-        <div class="profil_billede">
-            <img src="billeder/default.png" width="150" height="150">
+        <div class="info-container">
+            <div class="profil_billede">
+                <img src="billeder/default.png" width="300" height="300">
+            </div>
+            <div class="info">
+                <label>Navn:</label> <?php echo $resul["name"]?>
+                <br>
+                <label>Email:</label> <?php echo $resul["email"]?>
+                <br>
+                <label>Tlf:</label> <input type="tel" prequired placeholder="+45"/>
+                <br>
+                <label>Adresse:</label> <input type="text"/>
+                <br><!--  -->
+                <label>Om mig:</label> 
+                <br><!-- comment -->
+                <textarea id="subject" name="subject" placeholder="Beskriv dig selv!" style="height:200px"></textarea>
+                <br>
+                <input type="submit" name="submit" value="Opdater" class="form-btn">
+            </div>
         </div>
     </div>
     </body>
