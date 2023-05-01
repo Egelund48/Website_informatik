@@ -48,8 +48,11 @@ $resul = mysqli_fetch_assoc($query);
         <div style="height:600px; margin-left: 300px; margin-right: 25%; margin-top: 5%;">
             <h1>Søg nye jobs</h1>
             <p style="line-height: 2.0; font-size:20px;">
-                Her browser man efter nye jobs
+                Her kan man søge eller oprette nye jobs.
             </p>
+            <div class="post">
+                <img src="billeder/post_1.png" width="300" heigth="300">
+            </div>
         </div>
     </body>
 </html>
