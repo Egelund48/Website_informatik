@@ -26,12 +26,13 @@ $resul = mysqli_fetch_assoc($query);
         // put your code here
         ?>
         <div class="navbar">
-            <li><a href="browse.php">Browse</a></li>
-            <li><a href="profil.php">Profil</a></li>
-            <li><a href="kontakt.php">Kontakt</a></li>
-            <li><a href="om_os.php">Om os</a></li>
-            <li ><a href="login.php">
+            <li><a href="log_browse.php">Browse</a></li>
+            <li><a href="log_profil.php">Profil</a></li>
+            <li><a href="log_kontakt.php">Kontakt</a></li>
+            <li><a href="log_om_os.php">Om os</a></li>
+            <li ><a>
             <?php
+                session_start(); 
                 if(session_id())
                 {
                     echo "Velkommen ". $resul["name"]; 

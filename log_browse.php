@@ -45,7 +45,7 @@ $resul = mysqli_fetch_assoc($query);
         <?php
         // put your code here
         ?>
-        <div class= "main-browse" style=" margin-left: 300px; margin-right: 10%; margin-top: 5%;">
+        <div class= "main-browse" style=" margin-left: 300px; margin-right:auto; margin-top: 5%;">
             <h1>Søg nye jobs</h1>
             <p style="line-height: 2.0; font-size:20px;">
                 Her kan man søge eller oprette nye jobs.
@@ -71,7 +71,7 @@ $resul = mysqli_fetch_assoc($query);
                             Jeg søger en, som kan passe min hund Jørgen d. 17/6 kl: 14:00, da jeg bliver student på dette tidspunkt. Alt information står tidligere i dette opslag. 
                             <p>
                             <div class="post_1_post">
-                                <center><img src="billeder/post_1.jpg" width="300" heigth="300"></>
+                                <center><img src="billeder/post_1.png" width="300" heigth="300"></>
                             </div>
                         </div>
                     </div>

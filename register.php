@@ -56,7 +56,7 @@ if(isset($_POST['submit'])){
             }; 
 
             ?>
-            <input type="text" name="name" required placeholder="Skriv dit navn">
+            <input type="name" name="name" required placeholder="Skriv dit navn">
             <input type="email" name="email" required placeholder="Skriv din email">
             <input type="password" name="password" required placeholder="Skriv dit kodeord">
             <input type="password" name="cpassword" required placeholder="Godkend dit kodeord">

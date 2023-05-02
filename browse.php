@@ -22,14 +22,13 @@ $resul = mysqli_fetch_assoc($query);
     </div>
     
     <body>
-    <div class="navbar">
-            <li><a href="log_browse.php">Browse</a></li>
-            <li><a href="log_profil.php">Profil</a></li>
-            <li><a href="log_kontakt.php">Kontakt</a></li>
-            <li><a href="log_om_os.php">Om os</a></li>
-            <li ><a class = "name"> 
+        <div class="navbar">
+            <li><a href="browse.php">Browse</a></li>
+            <li><a href="profil.php">Profil</a></li>
+            <li><a href="kontakt.php">Kontakt</a></li>
+            <li><a href="om_os.php">Om os</a></li>
+            <li ><a href="login.php">
             <?php
-            session_start(); 
                 if(session_id())
                 {
                     echo "Velkommen ". $resul["name"]; 
@@ -48,11 +47,8 @@ $resul = mysqli_fetch_assoc($query);
         <div style="height:600px; margin-left: 300px; margin-right: 25%; margin-top: 5%;">
             <h1>Søg nye jobs</h1>
             <p style="line-height: 2.0; font-size:20px;">
-                Her kan man søge eller oprette nye jobs.
+                Her browser man efter nye jobs
             </p>
-            <div class="post">
-                <img src="billeder/post_1.png" width="300" heigth="300">
-            </div>
         </div>
     </body>
 </html>
