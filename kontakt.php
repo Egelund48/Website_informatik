@@ -1,6 +1,6 @@
 <?php 
 
-@include "configg.php"; 
+@include "config.php"; 
 
 $sel = "SELECT * FROM user_form"; 
 $query = mysqli_query($conn, $sel); 
